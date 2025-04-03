@@ -1,8 +1,248 @@
+* {
+    font-family: "Poppins", sans-serif;
+}
+
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 100;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiGyp8kv8JHgFVrLPTucHtF.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 200;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 300;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 500;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 600;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 700;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 800;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf) format('truetype');
+}
+@font-face {
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 900;
+    src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf) format('truetype');
+}
+
+
+body{
+    background-image: url("../img/задний фон номер 2.webp");
+}
 .footer {
     display: flex;
     justify-content: center;
-    align-items: center;
     height: 80px;
     font-size: 20px;
-    /* background-color: #D48C8C; */
+}
+
+/* hero zone */
+.hero {
+    margin: auto;
+    min-width: 200px;
+    max-width: 200px;
+    min-height: 200px;
+    max-height: 200px;
+    background-image: url("../img/self-photo-test.webp");
+    border-radius: 50%;
+    border: 2px solid black;
+    background-size: cover;
+    background-position: center;
+    display: flex;
+    right: 800px;
+}
+
+.spacer {
+    flex-basis: 70%;
+}
+
+.hero-content {
+    flex-basis: 50%;
+    display: flex;
+    margin: auto;
+    justify-content: center;
+    text-wrap: wrap;
+    text-align:center;
+    font-size: 35px;
+}
+
+/* menu zone */
+
+.header {
+    flex-direction: row-reverse;
+    justify-self: center;
+    height: 100px;
+    width: 80%;
+    display: flex;
+    position: relative;
+    align-items: center;
+    flex-wrap: wrap;
+}
+
+.menu{
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    flex-basis: 35%;
+    flex-direction: row;
+}
+
+
+
+/* skills zone */
+
+.python-logo {
+    height: 150px;
+    width: 180px;
+}
+.java-logo {
+    height: 150px;
+    width: 150px;
+}
+.spring-logo {
+    width: 220px;
+    height: 220px;
+}
+.git-logo {
+    width: 250px;
+    height: 250px;
+}
+.html-logo {
+    width: 200px;
+    height: 100px;
+}
+.css-logo {
+    width: 100px;
+    height: 100px;
+}
+.js-logo {
+    width: 280px;
+    height: 130px;
+}
+.postgresql-logo {
+    width: 180px;
+    height: 180px;
+}
+.c-logo {
+    width: 150px;
+    height: 150px;
+}
+
+.four-rules-logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.procrastination-logo{
+    width: 200px;
+    height: 200px;
+    border-radius: 20%;
+}
+
+.album-logo{
+
+    border-radius: 20%;
+    width: 200px;
+    height: 200px;
+}
+
+.logos {
+    display: flex;
+    flex-wrap: wrap;
+    align-self: stretch;
+    justify-content: space-evenly;
+}
+.logo-card {
+    width: 180px;
+    height: 220px;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    font-size: 48px;
+}
+.skills {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+}
+.skill-name{
+    font-size: 50%;
+}
+
+/* contact zone */
+
+.contact {
+    display: flex;
+    flex-wrap: wrap;
+    justify-self:center;
+}
+.contact-container {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+}
+.contact-form {
+    font-size: 64px;
+
+    display: flex;
+    flex-direction: column;
+    justify-self: center;
+}
+.contact-form-input{
+
+    width: 100%;
+    border: none;
+    outline: none;
+    margin: 10px 0;
+    font-size: 30px;
+    border-radius: 20px;
+    resize: vertical;
+}
+.contact-form-textarea {
+    margin: 10px 0;
+    font-size: 48px;
+}
+.form-button {
+    width: 260px;
+    height: 90px;
+    font-size: 40px;
+}
+
+.contact-text{
+    display: flex;
+    justify-content: center;
+    font-size: 40px;
 }
