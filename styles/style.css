@@ -59,7 +59,7 @@
 
 
 body{
-    background-image: url("../img/задний фон номер 2.webp");
+    background-image: url("../img/background_img.webp");
 }
 .footer {
     display: flex;
@@ -75,7 +75,7 @@ body{
     max-width: 200px;
     min-height: 200px;
     max-height: 200px;
-    background-image: url("../img/self-photo-test.webp");
+    background-image: url(../img/self-photo-test.webp);
     border-radius: 50%;
     border: 2px solid black;
     background-size: cover;
