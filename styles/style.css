@@ -119,6 +119,10 @@ body{
     flex-direction: row;
 }
 
+.menu-link{
+    text-decoration: none;
+}
+
 
 
 /* skills zone */
@@ -239,6 +243,8 @@ body{
     width: 260px;
     height: 90px;
     font-size: 40px;
+    outline: none;
+    border-radius: 20px;
 }
 
 .contact-text{
