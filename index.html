@@ -18,6 +18,7 @@
 </header>
 
 
+
 <div id="home" class="hero"></div>
 <div class="hero-content">
     <p>Good day! May this day be filled <br> with pleasant impressions<br> of my portfolio!</p>
@@ -104,7 +105,7 @@
     <div class="contact-container">
         <div>
             <h2 class="contact-text">Contact</h2>
-            <form class="contact-form">
+            <form class="contact-form" action="/send" name="/sendForm" method="post" autocomplete="on">
                 <label>
                     <input class="contact-form-input" type="text" placeholder="Enter your name" required>
                 </label>
@@ -112,7 +113,7 @@
                     <input class="contact-form-input" type="email" placeholder="Enter your email" required>
                 </label>
                 <label>
-                    <textarea class="contact-form-input" placeholder="Enter your message" required></textarea>
+                    <textarea class="contact-form-input" type="message" placeholder="Enter your message" required></textarea>
                 </label>
                 <button type="submit" class="form-button">Submit</button>
             </form>

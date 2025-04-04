@@ -252,3 +252,89 @@ body{
     justify-content: center;
     font-size: 40px;
 }
+
+@media only screen and (max-width: 1060px){
+    .header {
+        font-size: 40px;
+    }
+    .menu{
+        display: flex;
+        flex-direction: row;
+        justify-content: flex-start;
+        right: -400px;
+        width: 200px;
+        position: absolute;
+        top: 30px;
+        left: 40px;
+    }
+    .menu-link {
+        margin-bottom: 30px;
+        font-size: 55px;
+    }
+    .hero {
+        background-image: url("../img/self-photo-test.webp");
+        background-size: cover;
+        background-position: center;
+    }
+    .hero-content {
+        flex-basis: 20%;
+        margin-top: 20%;
+        font-size: 50px;
+    }
+    .skills-title {
+        font-size: 50px;
+    }
+    .skills-subtitle {
+        font-size: 40px;
+    }
+    .logo-card {
+        font-size: 30px;
+    }
+    .contact-left {
+        flex-basis: 100%;
+        font-size: 50px;
+    }
+    .contact-form {
+        font-size: 40px;
+    }
+    .form-button {
+        font-size: 40px;
+        width: 200px;
+        height: 50px;
+    }
+    .contact-form input, .contact-form textarea {
+        font-size: 29px;
+    }
+    .contact-alternatives {
+        flex-basis: 100%;
+        font-size: 40px;
+    }
+    .card {
+        font-size: 30px;
+    }
+}
+
+@media only screen and (max-width: 770px) {
+    .hero {
+        background-image: none;
+        border: none;
+        outline: none;
+        margin-right: 60px;
+        background-size: cover;
+        background-position: center;
+    }
+    .menu{
+        display: flex;
+        width: 100px;
+    }
+    .menu-link {
+        font-size: 40px;
+    }
+    .hero-content {
+        font-size: 36px;
+    }
+    .footer {
+        height: 50px;
+        font-size: 20px;
+    }
+}
