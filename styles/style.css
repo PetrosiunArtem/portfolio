@@ -8,48 +8,56 @@
     font-weight: 100;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiGyp8kv8JHgFVrLPTucHtF.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 200;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLFj_Z1xlEA.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 300;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDz8Z1xlEA.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiEyp8kv8JHgFVrJJfedw.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 500;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLGT9Z1xlEA.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 600;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLEj6Z1xlEA.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 700;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLCz7Z1xlEA.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 800;
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLDD4Z1xlEA.ttf) format('truetype');
 }
+
 @font-face {
     font-family: 'Poppins';
     font-style: normal;
@@ -57,10 +65,14 @@
     src: url(https://fonts.gstatic.com/s/poppins/v20/pxiByp8kv8JHgFVrLBT5Z1xlEA.ttf) format('truetype');
 }
 
+html {
+    scroll-behavior: smooth;
+}
 
-body{
+body {
     background-image: url("../img/background_img.webp");
 }
+
 .footer {
     display: flex;
     justify-content: center;
@@ -94,7 +106,7 @@ body{
     margin: auto;
     justify-content: center;
     text-wrap: wrap;
-    text-align:center;
+    text-align: center;
     font-size: 35px;
 }
 
@@ -111,7 +123,7 @@ body{
     flex-wrap: wrap;
 }
 
-.menu{
+.menu {
     display: flex;
     justify-content: space-between;
     flex-wrap: wrap;
@@ -119,10 +131,9 @@ body{
     flex-direction: row;
 }
 
-.menu-link{
+.menu-link {
     text-decoration: none;
 }
-
 
 
 /* skills zone */
@@ -131,52 +142,60 @@ body{
     height: 150px;
     width: 180px;
 }
+
 .java-logo {
     height: 150px;
     width: 150px;
 }
+
 .spring-logo {
     width: 220px;
     height: 220px;
 }
+
 .git-logo {
     width: 250px;
     height: 250px;
 }
+
 .html-logo {
     width: 200px;
     height: 100px;
 }
+
 .css-logo {
     width: 100px;
     height: 100px;
 }
+
 .js-logo {
     width: 280px;
     height: 130px;
 }
+
 .postgresql-logo {
     width: 180px;
     height: 180px;
 }
+
 .c-logo {
     width: 150px;
     height: 150px;
 }
 
-.four-rules-logo{
+.four-rules-logo {
     width: 200px;
     height: 200px;
     border-radius: 20%;
 }
 
-.procrastination-logo{
+.procrastination-logo {
     width: 200px;
     height: 200px;
     border-radius: 20%;
 }
 
-.album-logo{
+.album-logo {
 
     border-radius: 20%;
     width: 200px;
@@ -189,6 +208,7 @@ body{
     align-self: stretch;
     justify-content: space-evenly;
 }
+
 .logo-card {
     width: 180px;
     height: 220px;
@@ -197,12 +217,14 @@ body{
     align-items: center;
     font-size: 48px;
 }
+
 .skills {
     display: flex;
     flex-direction: column;
     align-items: center;
 }
-.skill-name{
+
+.skill-name {
     font-size: 50%;
 }
 
@@ -211,13 +233,15 @@ body{
 .contact {
     display: flex;
     flex-wrap: wrap;
-    justify-self:center;
+    justify-self: center;
 }
+
 .contact-container {
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
 }
+
 .contact-form {
     font-size: 64px;
 
@@ -225,7 +249,8 @@ body{
     flex-direction: column;
     justify-self: center;
 }
-.contact-form-input{
+
+.contact-form-input {
 
     width: 100%;
     border: none;
@@ -235,10 +260,12 @@ body{
     border-radius: 20px;
     resize: vertical;
 }
+
 .contact-form-textarea {
     margin: 10px 0;
     font-size: 48px;
 }
+
 .form-button {
     width: 260px;
     height: 90px;
@@ -247,17 +274,18 @@ body{
     border-radius: 20px;
 }
 
-.contact-text{
+.contact-text {
     display: flex;
     justify-content: center;
     font-size: 40px;
 }
 
-@media only screen and (max-width: 1060px){
+@media only screen and (max-width: 1060px) {
     .header {
         font-size: 40px;
     }
-    .menu{
+
+    .menu {
         display: flex;
         flex-direction: row;
         justify-content: flex-start;
@@ -267,48 +295,60 @@ body{
         top: 30px;
         left: 40px;
     }
+
     .menu-link {
         margin-bottom: 30px;
         font-size: 55px;
     }
+
     .hero {
         background-image: url("../img/self-photo-test.webp");
         background-size: cover;
         background-position: center;
     }
+
     .hero-content {
         flex-basis: 20%;
         margin-top: 20%;
         font-size: 50px;
     }
+
     .skills-title {
         font-size: 50px;
     }
+
     .skills-subtitle {
         font-size: 40px;
     }
+
     .logo-card {
         font-size: 30px;
     }
+
     .contact-left {
         flex-basis: 100%;
         font-size: 50px;
     }
+
     .contact-form {
         font-size: 40px;
     }
+
     .form-button {
         font-size: 40px;
         width: 200px;
         height: 50px;
     }
+
     .contact-form input, .contact-form textarea {
         font-size: 29px;
     }
+
     .contact-alternatives {
         flex-basis: 100%;
         font-size: 40px;
     }
+
     .card {
         font-size: 30px;
     }
@@ -323,16 +363,20 @@ body{
         background-size: cover;
         background-position: center;
     }
-    .menu{
+
+    .menu {
         display: flex;
         width: 100px;
     }
+
     .menu-link {
         font-size: 40px;
     }
+
     .hero-content {
         font-size: 36px;
     }
+
     .footer {
         height: 50px;
         font-size: 20px;
